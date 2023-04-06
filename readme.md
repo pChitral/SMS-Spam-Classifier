@@ -14,6 +14,7 @@ The web app is deployed on Heroku and can be accessed at [[ HEROKU APP](https://
   - [Technologies Used](#technologies-used)
   - [Contributing](#contributing)
   - [License](#license)
+  - [Files](#files)
 
 ## Usage
 
@@ -58,3 +59,18 @@ If you would like to contribute to this project, feel free to submit a pull requ
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+
+## Files
+
+The following files are included in this repository:
+
+- `CODE_OF_CONDUCT.md`: Guidelines for contributing to this project.
+- `LICENSE.md`: The license under which this project is released.
+- `Procfile`: A file for deploying the app to Heroku.
+- `app.py`: The script that runs the web app.
+- `data/`: A directory containing the dataset used for training the model.
+- `logo.png`: A logo for the web app.
+- `model.pkl`: A trained machine learning model used for classification.
+- `nltk.txt`: A file containing necessary dependencies for NLP processing.
+- `readme.md`: The documentation for the project.
+- `requirements.txt`: A list of Python dependencies required for
