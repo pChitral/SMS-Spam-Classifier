@@ -2,7 +2,7 @@
 
 A machine learning model that classifies text messages as either "spam" or "ham" using natural language processing techniques. This repository contains the code for training the model, as well as a web app that allows users to input text messages and receive a classification.
 
-The web app is deployed on Heroku and can be accessed at [INSERT HEROKU APP URL HERE].
+The web app is deployed on Heroku and can be accessed at [[INSERT HEROKU APP URL HERE](https://chitralpatil-spam-classifier.herokuapp.com/)].
 
 ## Table of Contents
 
@@ -17,38 +17,39 @@ The web app is deployed on Heroku and can be accessed at [INSERT HEROKU APP URL 
 
 ## Usage
 
-To use the web app, simply navigate to [INSERT HEROKU APP URL HERE]. Input a text message and click "Classify". The app will return a classification of either "spam" or "ham".
+To use the web app, simply navigate to [[INSERT HEROKU APP URL HERE](https://chitralpatil-spam-classifier.herokuapp.com/)]. Input a text message and click "Predict". The app will return a classification of either "spam" or "ham" along with the probability of the prediction.
 
 ## Installation
 
 To install and run the web app locally, follow these steps:
 
-1. Clone this repository: `git clone [INSERT REPO URL HERE]`
+1. Clone this repository: `git clone [[INSERT REPO URL HERE](https://github.com/pChitral/SMS-Spam-Classifier.git)]`
 2. Navigate into the repository: `cd sms-classifier`
 3. Install the required dependencies: `pip install -r requirements.txt`
-4. Run the app: `python app.py`
+4. Run the app: `sms_classifier.ipynb`
 5. Navigate to `http://localhost:5000` in your web browser to use the app.
 
-Note: The app requires a trained machine learning model to classify text messages. By default, the app will use a pre-trained model that is included in the repository. However, if you wish to train your own model, follow the instructions in the "Model Training" section below.
+Note: The app which I've deployed on heroku uses a trained machine learning model to classify text messages. By default, the app will use a pre-trained model that is included in the repository. However, if you wish to train your own model, follow the instructions in the "Model Training" section below. 
 
 ## Model Training
 
 To train a new machine learning model, follow these steps:
 
 1. Ensure that the training data is in the correct format (see `data/spam.csv` for an example)
-2. Run the `train_model.py` script to train the model: `python train_model.py`
-3. The trained model will be saved as a `.pkl` file in the `models/` directory.
+2. Run the desired model that you want.
+3. The trained model will be saved as a `.pkl` file in the same directory.
 
-Note: The `train_model.py` script uses scikit-learn's `Pipeline` and `GridSearchCV` classes to optimize the model's hyperparameters. You may wish to modify these classes to further optimize the model.
+You may wish to modify these classes to further optimize the model.
 
 ## Technologies Used
 
 - Python
-- Flask
+- Sreamlit
 - Heroku
 - scikit-learn
 - pandas
 - numpy
+
 
 ## Contributing
 
