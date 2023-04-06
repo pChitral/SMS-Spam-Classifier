@@ -2,7 +2,7 @@
 
 A machine learning model that classifies text messages as either "spam" or "ham" using natural language processing techniques. This repository contains the code for training the model, as well as a web app that allows users to input text messages and receive a classification.
 
-The web app is deployed on Heroku and can be accessed at [[INSERT HEROKU APP URL HERE](https://chitralpatil-spam-classifier.herokuapp.com/)].
+The web app is deployed on Heroku and can be accessed at [[ HEROKU APP](https://chitralpatil-spam-classifier.herokuapp.com/)].
 
 ## Table of Contents
 
