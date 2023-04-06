@@ -17,14 +17,14 @@ The web app is deployed on Heroku and can be accessed at [[INSERT HEROKU APP URL
 
 ## Usage
 
-To use the web app, simply navigate to [[INSERT HEROKU APP URL HERE](https://chitralpatil-spam-classifier.herokuapp.com/)]. Input a text message and click "Predict". The app will return a classification of either "spam" or "ham" along with the probability of the prediction.
+To use the web app, simply navigate to [[HEROKU APP](https://chitralpatil-spam-classifier.herokuapp.com/)]. Input a text message and click "Predict". The app will return a classification of either "spam" or "ham" along with the probability of the prediction.
 
 ## Installation
 
 To install and run the web app locally, follow these steps:
 
-1. Clone this repository: `git clone [[INSERT REPO URL HERE](https://github.com/pChitral/SMS-Spam-Classifier.git)]`
-2. Navigate into the repository: `cd sms-classifier`
+1. Clone this repository: `git clone https://github.com/pChitral/SMS-Spam-Classifier.git`
+2. Navigate into the directory where the git clone was executed: `cd your_foldername`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the app: `sms_classifier.ipynb`
 5. Navigate to `http://localhost:5000` in your web browser to use the app.
