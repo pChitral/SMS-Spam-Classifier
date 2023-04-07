@@ -27,8 +27,9 @@ To install and run the web app locally, follow these steps:
 1. Clone this repository: `git clone https://github.com/pChitral/SMS-Spam-Classifier.git`
 2. Navigate into the directory where the git clone was executed: `cd your_foldername`
 3. Install the required dependencies: `pip install -r requirements.txt`
-4. Run the app: `sms_classifier.ipynb`
-5. Navigate to `http://localhost:5000` in your web browser to use the app.
+4. Run the app: `sms_classifier.ipynb` to get the model in the pkl format.
+5. Execute `streamlit run app.py` on your termial
+6. Navigate to Local URL: `http://localhost:8501` in your web browser to use the app.
 
 Note: The app which I've deployed on heroku uses a trained machine learning model to classify text messages. By default, the app will use a pre-trained model that is included in the repository. However, if you wish to train your own model, follow the instructions in the "Model Training" section below. 
 
@@ -50,6 +51,9 @@ You may wish to modify these classes to further optimize the model.
 - scikit-learn
 - pandas
 - numpy
+- matplotlib
+- seaborn
+- nltk
 
 
 ## Contributing
