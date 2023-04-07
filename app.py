@@ -9,6 +9,8 @@ tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
 # Define a function to preprocess the input text
+
+
 def preprocess_text(text):
     import string
 
@@ -27,6 +29,8 @@ def preprocess_text(text):
     return " ".join(words)
 
 # Define a function to make predictions
+
+
 def predict_spam(input_text):
     # Preprocess the input text
     preprocessed_text = preprocess_text(input_text)
@@ -43,6 +47,8 @@ def predict_spam(input_text):
     return prediction, prediction_prob
 
 # Define the Streamlit app
+
+
 def app():
     # Set the app title and favicon
     st.set_page_config(page_title='Spam Classifier', page_icon=':envelope:')
@@ -75,9 +81,11 @@ def app():
 
         # Display the prediction result
         if prediction == 1:
-            st.error(f'This message is spam with a probability of {prediction_prob:.2f}.')
+            st.error(
+                f'This message is spam with a probability of {prediction_prob:.2f}.')
         else:
-            st.success(f'This message is not spam with a probability of {1 - prediction_prob:.2f}.')
+            st.success(
+                f'This message is not spam with a probability of {1 - prediction_prob:.2f}.')
 
     # Add a reset button to clear the input field
     if st.button('Reset'):
@@ -89,6 +97,7 @@ def app():
 
     # Add some styling to the footer
     st.markdown('<p style="font-size:10px; font-style:italic; text-align:center;">Built with Streamlit by Your Name</p>', unsafe_allow_html=True)
+
 
 if __name__ == '__main__':
     app()
