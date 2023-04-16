@@ -9,6 +9,7 @@ The web app is deployed on Heroku and can be accessed at [[ HEROKU APP](https://
 - [SMS Classifier](#sms-classifier)
   - [Table of Contents](#table-of-contents)
   - [Usage](#usage)
+  - [Screenshots](#screenshots)
   - [Installation](#installation)
   - [Model Training](#model-training)
   - [Technologies Used](#technologies-used)
@@ -19,6 +20,19 @@ The web app is deployed on Heroku and can be accessed at [[ HEROKU APP](https://
 ## Usage
 
 To use the web app, simply navigate to [[HEROKU APP](https://chitralpatil-spam-classifier.herokuapp.com/)]. Input a text message and click "Predict". The app will return a classification of either "spam" or "ham" along with the probability of the prediction.
+
+## Screenshots 
+
+Entering text that needs to be classified
+
+<img width="695" alt="Screenshot 2023-04-16 at 2 54 26 PM" src="https://user-images.githubusercontent.com/69043137/232335491-97eaf5af-7015-4236-9642-b4b282824932.png">
+
+The prediction of our model along with the probability
+
+<img width="666" alt="Screenshot 2023-04-16 at 2 54 43 PM" src="https://user-images.githubusercontent.com/69043137/232335514-5070567d-4ab5-4c2a-a0c3-4f15a4da7533.png">
+
+
+
 
 ## Installation
 
